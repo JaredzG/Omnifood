@@ -120,6 +120,7 @@
 
   .btn--mobile-nav {
     display: block;
+    z-index: 9999;
   }
 
   /* Mobile Navigation off by default */
@@ -140,7 +141,7 @@
     visibility: hidden;
   }
 
-  /* Code to turn Movile Navigation on (Using JS) */
+  /* Code to turn Mobile Navigation on (Using JS) */
   .nav-open .main-nav {
     opacity: 1;
     pointer-events: auto;
